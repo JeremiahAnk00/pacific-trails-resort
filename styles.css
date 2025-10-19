@@ -1,166 +1,78 @@
-* {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Pacific Trails Resort : Yurts</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<h1>Pacific Trails Resort</h1> 
+		</header>
+		<nav>
+			<b>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="yurts.html">Yurts</a></li>  
+				<li><a href="activities.html">Activities</a></li> 
+				<li><a href="reservations.html">Reservations</a></li> 
+			</ul>
+			</b>
+		</nav>
 
-body {
-    margin:0;
-    background-color: #90C7E3;
-    color: #666666;
-    font-family: Verdana, Arial, sans-serif;
-    background: linear-gradient(to bottom, #FFFFFF 2%, #90c7E3 60%, #FFFFFF 100%);
-}
-
-
-#wrapper {
-    background-color: #FFFFFF;
-    margin: auto; 
-    width: 80%;
-
-}
-
-
-header {
-    background-color: #002171;
-    color: #ffffff;
-    font-family: Georgia, serif;
-    padding: 1em; 
-}
-
-header a:link, 
-header a:visited {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: #90C7E3;
-}
-    
-
-
-h1 {
-    text-align: center;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 2em;
-    letter-spacing: .25em;
-}
-
-h2 {
-    color: #1976D2;
-    font-family: Georgia, serif;
-}
-
-h3 {
-    font-family: Georgia, serif;
-}
-
-
-nav {
-    font-size: 1.2em;
-    text-align: center;
-    background-color: white;
-}
-
-nav a:link { color: #5C7FA3;
-}
-
-nav a:visited { color: #344873; 
-} 
-
-nav a:hover { color: #A52A2A; 
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row; flex-wrap: nowrap;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-nav li {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 12em;
-    border-bottom: none;
-}
-nav a {
-    text-decoration: none;
-}
-
-
-main {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 1em;
-    padding-left: 1em;
-    display: block;
-}
-
-section {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-#flow {
-    display: flex;      
-    flex-direction: row;
-}
-
-dt {
-    color: #002171;
-    font-weight: bold;
-}
-
-
-.resort {
-    color: #1976D2;
-    font-size: 1.2em;
-}
-
-.special {
-    font-weight: bold;
-    color: #660099;
-}
-
-
-footer {
-    background-color: #FFFFFF;
-    font-size: .70em;
-    font-style: italic;      
-    text-align: center;
-    padding: 1em;
-}
-
-#mobile {
-    display: none;
-}
-
-#desktop {
-    display: inline;
-}
-
-#homehero {
-    height: 300px;
-    background-image: url(images/coast.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#yurthero {
-    height: 300px;
-    background-image: url(images/yurt.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#trailhero {
-    height: 300px;
-    background-image: url(images/trail.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+	<div id="wrapper">
+		<div id="yurthero"></div> 
+		<main>
+			<h2>The Yurts at Pacific Trails</h2> 
+		<div id="flow"> 
+		<section>
+				<h3>What is a yurt?</h3>
+				<p>Our luxury yurts are permanent structures four feet off the ground. Each yurt has canvas walls, a wooden floor, a roof dome that can be opened, and a private deck.</p>
+		</section>
+		<section>
+				<h3>How are the yurts furnished?</h3>
+				<p>Each yurt is furnished with a gas fireplace, king-size bed with down quilt, comfy couch, dining table and chairs, mini-fridge, microwave, and coffee maker. Your luxury camping experience includes a sink with hot and cold running water. Shower and restroom facilities are located in the lodge.</p>
+		</section>
+		<section>
+				<h3>What should I bring?</h3>
+				<p>Most guests pack comfortable walking shoes and plan to dress for changing weather with light layers of clothing. It's also helpful to bring a flashlight and a sense of adventure!</p>
+		</section>
+		</div>
+				<h3>Yurt Packages</h3>
+				<p>A variety of luxury yurt packages are available. Choose a package below and contact us to begin your reservation. We're happy to build a custom package just for you!</p>
+				<table>
+					<tr>
+						<th>Package Name</th>
+						<th>Description</th>
+						<th>Nights</th>
+						<th>Cost per person</th>
+					</tr>
+					<tr>
+						<td>Weekend Escape</td>
+						<td class="text">Two breakfasts, a trail map, a picnic snack</td>
+						<td>2</td>
+						<td>$450</td>
+					</tr>
+					<tr>
+						<td>Zen Retreat</td>
+						<td class="text">Four breakfasts, a trailmap, a pass for for daily yoga</td>
+						<td>4</td>
+						<td>$600</td>
+					</tr>
+					<tr>
+						<td>Kayak Away</td>
+						<td class="text">Two breakfasts, two hours of kayak rental daily, a trail map</td>
+						<td>2</td>
+						<td>$500</td>
+					</tr>
+				</table>
+		</main>
+		<footer>
+		<small><i>Copyright &copy; 2025 Pacific Trails Resort<br>
+				<a href="mailto:Jankam48@stu.jjc.edu">jankam48@stu.jjc.edu
+				</a></i></small>
+		</footer>
+	</div>
+	</body>
+</html>
